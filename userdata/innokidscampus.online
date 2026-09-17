@@ -1,0 +1,26 @@
+---
+customlog:
+  -
+    format: combined
+    target: /etc/apache2/logs/domlogs/innokidscampus.online
+  -
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/innokidscampus.online-bytes_log
+documentroot: /home/innokids/public_html
+group: innokids
+hascgi: 1
+homedir: /home/innokids
+ip: 49.12.82.48
+owner: root
+phpopenbasedirprotect: 1
+phpversion: ea-php81
+port: 80
+scriptalias:
+  -
+    path: /home/innokids/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@innokidscampus.online
+serveralias: www.innokidscampus.online mail.innokidscampus.online
+servername: innokidscampus.online
+usecanonicalname: 'Off'
+user: innokids

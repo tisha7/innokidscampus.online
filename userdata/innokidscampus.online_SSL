@@ -1,0 +1,18 @@
+---
+documentroot: /home/innokids/public_html
+group: innokids
+hascgi: 1
+homedir: /home/innokids
+ip: 49.12.82.48
+ipv6: ~
+owner: root
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@innokidscampus.online
+serveralias: www.innokidscampus.online mail.innokidscampus.online
+servername: innokidscampus.online
+ssl: 1
+usecanonicalname: 'Off'
+user: innokids
+userdirprotect: ''
